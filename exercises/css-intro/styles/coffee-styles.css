@@ -1,0 +1,31 @@
+html, body {
+    background-color:white;
+    margin: 0;
+}
+
+body>header {
+    color: white;
+    padding: 0px;
+    background: no-repeat url("../../coffeeshop/assets/header-image.jpg");
+    background-size: cover;
+    min-height: 400px;
+    margin-top: -20px; /* a hack */
+}
+
+body>header h1 {
+    margin-left: 35px;
+}
+
+nav ul li {
+    float: left;
+    list-style-type: none;
+    padding-right: 10px;
+    padding-left: 0px;
+}
+
+main, footer {
+    clear: both;
+    width: 60%;
+    margin: 0 auto;
+    padding: 0 20px;
+}

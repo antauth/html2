@@ -1,0 +1,9 @@
+.box {
+    border: 1px solid teal;
+    width: 200px;
+    height: 200px;
+}
+
+.box:nth-child(even) {
+    border-color: magenta;
+}
